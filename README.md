@@ -2,17 +2,14 @@
 A Repository to explain Design patterns with Practical Implementation
 
 ## Table of Contents
-- [Singleton Pattern](#Singleton Pattern)
-
+- [Singleton Pattern](#singleton-pattern)
 
 ## Singleton Pattern
 
 ### What is Singleton Class
--   Singleton means one i.e. Only one instance of the class can be created
+- Singleton means **one**, i.e., only **one instance** of the class can be created.
 
-### Steps to create a Singleton Class: 
-- In the SingletonService class we can see for class Abc() a static instance object (obj) is created for that class
-- For that class the default constructor is made private ,so that no object can be created for that class
--  After that, static method (getInstance()) is created for that class which will return the object(obj) of Abc
-
-
+### Steps to create a Singleton Class:
+1. In the `SingletonService` class, we create a **static instance object** (`obj`) for the class `Abc`.
+2. The default constructor of the class is made **private**, so no additional objects can be created from outside the class.
+3. A **static method** (`getInstance()`) is created that will return the single object (`obj`) of the class `Abc`.
